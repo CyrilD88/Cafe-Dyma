@@ -38,6 +38,8 @@ p{
     border-radius: 30px;
     font-weight: 700;
     font-size: 14px;
+    border: 0px;
+    cursor: pointer;
 }
 
 .btn-primary{
@@ -45,9 +47,19 @@ p{
     color: #222;
 }
 
+.btn-dark{
+    background: #222;
+    color: white;
+}
 .btn-primary:hover{
     background: #222;
     color: white;
+}
+
+.btn-dark:hover{
+    background: white;
+    color: #222;
+    border: 1px solid #222;
 }
 
 .my-10{
@@ -55,7 +67,10 @@ p{
     margin-bottom: 10px;
 }
 
-
+my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .container{
     display: block;
     margin: auto;
@@ -143,4 +158,18 @@ header nav h1 a{
 .feature{
     float: left;
     width: 50%;
+}
+
+/* person */
+
+.person{
+    height: 450px;
+    background: url(../images/cafe3.jpg) center center/cover;
+   
+}
+
+/* réservation */
+
+.reservation{
+    padding: 100px 0px 100px 0px;
 }
