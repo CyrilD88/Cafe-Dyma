@@ -176,7 +176,7 @@ header nav h1 a{
     overflow: auto;
     padding: 100px 20px 100px 20px;
     text-align: center;
-}20px
+}
 
 .feature{
     float: left;
@@ -194,7 +194,7 @@ header nav h1 a{
 /* réservation */
 
 .reservation{
-    padding: 100px 20px 100px 20px;
+    padding: 100px 0px 100px 0px;
     text-align: center;
 }
 
@@ -215,7 +215,7 @@ footer p{
 /* where */
 
 .where{
-    padding: 180px 0px 100px 0px;
+    padding: 180px 20px 100px 20px;
     overflow: auto;
     min-height: 100vh;
 }
