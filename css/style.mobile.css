@@ -18,3 +18,24 @@
     padding: 10px;
     text-align: center;
 }
+
+
+/* vp */
+
+.vp-content{
+   padding-top: 50px;
+}
+
+.vp-content h1{
+    font-size: 2rem;
+}
+
+/* features */
+
+.feature{
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+
