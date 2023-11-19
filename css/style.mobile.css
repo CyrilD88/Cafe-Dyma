@@ -39,3 +39,32 @@
 
 }
 
+/* where */
+
+.where{
+    padding: 80px 20px 50px 20px;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.where-img{
+    float: none;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.where-text{
+    float: none;
+    width: 100%;
+}
+
+/* Contact */
+
+.contact{
+    padding: 50ox 0px 50ox 0px;
+    min-height: 100vh;
+}
