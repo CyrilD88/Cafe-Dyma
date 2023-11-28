@@ -22,7 +22,10 @@ a{
     text-decoration: none;
 }
 
-
+strong{
+    color: #f1c40f;
+    font-weight: 400;
+}
 
 
 
@@ -40,6 +43,7 @@ header{
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
+   line-height: 1.8rem;
 }
 
 header ul{
@@ -73,6 +77,7 @@ header ul li a:hover{
 
 .vp-logo a{
     font-size: 3rem;
+    font-weight: 300;
 }
 
 header a{
@@ -81,4 +86,27 @@ header a{
 
 .vp{
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/images/frame.jpg) center center/cover;
+}
+
+.vp-content{
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.vp-content h1{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.vp-content p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
 }
