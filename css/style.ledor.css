@@ -190,3 +190,11 @@ header a{
 .who-content-img img{
     width: 100%;
 }
+
+.who-content-text h2{
+    margin-bottom: 2rem;
+}
+.who-content-text p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
