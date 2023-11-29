@@ -122,6 +122,7 @@ header a{
     max-width: 800px;
     text-align: center;
     color: white;
+    padding: 1rem;
 }
 
 .vp-content h1{
@@ -182,6 +183,7 @@ header a{
 
 .who-content-img{
     flex: 1;
+    background: url(../images/images/team.jpg) center center/cover;
 }
 
 .who-content-text{
@@ -191,9 +193,7 @@ header a{
     flex-direction: column;
     justify-content: center;
 }
-.who-content-img img{
-    width: 100%;
-}
+
 
 .who-content-text h2{
     margin-bottom: 2rem;
@@ -304,3 +304,5 @@ footer p{
     margin-bottom: 0;
 
 }
+
+
