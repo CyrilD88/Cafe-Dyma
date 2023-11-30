@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            background: green;
+        }
+        header{
+            background: red;
+        }
+
+        main{
+            background: purple;
+        }
+
+        footer{
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <main></main>
+        <footer></footer>
+    </div>
+</body>
+</html>
