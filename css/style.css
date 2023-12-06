@@ -66,6 +66,7 @@ header p {
   grid-area: picture;
   padding: 6rem;
   background: var(--background);
+  border-right: 1px solid #ddd;
 }
 .picture img {
   border-radius: 50%;
@@ -73,6 +74,8 @@ header p {
 
 aside {
   grid-area: aside;
+  background: var(--background);
+  border-right: 1px solid #ddd;
 }
 
 main {
