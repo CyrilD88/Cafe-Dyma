@@ -40,6 +40,10 @@ img {
   font-size: 1.7rem;
 }
 
+.text-primary {
+  color: var(--primary);
+}
+
 .grid-container {
   display: grid;
   min-height: 100vh;
@@ -117,6 +121,15 @@ aside .block .bar-skill .bar-skill-dot {
   left: calc(80% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
+}
+aside .block .stars-container {
+  display: flex;
+  margin: 2rem 0 3rem 0;
+  color: var(--hint);
+}
+aside .block .stars-container i {
+  font-size: 2rem;
+  margin: 0 1rem;
 }
 
 main {
